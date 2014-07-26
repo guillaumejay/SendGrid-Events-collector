@@ -1,0 +1,12 @@
+﻿@model IList<SendGridEventsModel.Event>
+Displaying the last 50 events 
+<div>
+    @{
+
+        var grid = new WebGrid(Model, defaultSort: "ReceivedOn");
+
+    }
+
+    @grid.GetHtml()
+
+</div>
