@@ -1,8 +1,8 @@
 SendGrid Event collector
 ================
-When using SendGrid.com, you can give the an url to call after each event (mail opened,unsuscribe etc..) so that you store and anlayse them.
+While using SendGrid.com, you can set an url which will be called after each event (mail opened,unsuscribe etc..) so that you store and analyse them.
 
-So, this is basic project to store these events in a database.
+So, this is a basic project to store these events in a database.
 
 Use WebAPI, Entity Framework, Async.
 Include a few tests.
